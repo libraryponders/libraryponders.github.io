@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1D809F;
+  --bs-primary: #ebe5d6;
   --bs-secondary: #e8e4d9;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 232, 228, 217;
+  --bs-primary-rgb: 235, 229, 214;
   --bs-secondary-rgb: 232, 228, 217;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -11291,6 +11291,9 @@ html {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  width: 100%;
+  margin-bottom: 15%;
+  overflow: auto;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
