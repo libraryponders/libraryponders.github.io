@@ -11465,6 +11465,7 @@ footer.footer .social-link:hover {
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/CS17344349_trans4.png");
   background-position: center center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
