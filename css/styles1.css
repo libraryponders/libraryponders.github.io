@@ -11468,25 +11468,34 @@ footer.footer .social-link:hover {
   }
 }
 .masthead {
-  min-height: 30rem;
+  min-height: 20rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: url("../assets/img/CS17344349_trans4.png");
-  background-position: center center;
-  background-attachment: fixed;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  /* background-size: cover;  */
+}
+
+.logo {
+  display: block;
+  background-image: url("../assets/img/website_logo1.png");
+  background-position: 50% 25%;
   background-repeat: no-repeat;
-  background-size: cover;
+  height: 350px;
+  width: 100%;
+}
+
 }
 
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+
 }
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
