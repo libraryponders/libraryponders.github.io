@@ -11498,23 +11498,11 @@ footer.footer .social-link:hover {
 .logo {
   display: block;
   background-image: url("../assets/img/website_logo2.png");
-}
-.logo_main {
-  display: block;
   background-position: 50% 25%;
   background-repeat: no-repeat;
   height: 450px;
   width: 100%;
 }
-.logo_secon {
-  display: block;
-  background-size: 150px 150px;
-  background-position: 50% 25%;
-  background-repeat: no-repeat;
-  height: 200px;
-  width: 100%;
-}
-
 
 }
 
