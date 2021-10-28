@@ -28,3 +28,7 @@ Cream beige: d2c7b3
 Darker beige: bcab98
 
 Dirty Gray: 8b8079
+
+text colors:
+.text-primary
+.text-secondary
