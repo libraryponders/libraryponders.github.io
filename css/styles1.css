@@ -11508,7 +11508,8 @@ footer.footer .social-link:hover {
 }
 .logo_secon {
   display: block;
-  background-size: 150px 150px;
+  background-image: url("../assets/img/newspaper_logo_small.png");
+  background-size: 150px 116px;
   background-position: 50% 25%;
   background-repeat: no-repeat;
   height: 200px;
