@@ -11313,6 +11313,14 @@ html {
   overflow: auto;
 }
 
+.content-section_2 {
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+  width: 100%;
+  margin-bottom: 10%;
+  overflow: auto;
+}
+
 .content-section-heading h2, .content-section-heading .h2 {
   font-size: 3rem;
 }
