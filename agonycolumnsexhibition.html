@@ -35,8 +35,22 @@ tw-story {
 	color: #FFF; 
 	font-weight: bold; 
 }
-
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Beginnings 1" tags="donotshowinventory" position="250,400" size="100,100">You squint at the light coming through the window. 
+tw-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%; /* padding-right of the tw-story element. */
+  max-height: 100%;
+  margin-top: 5%; /* padding-top of the tw-story element. */
+  padding: 0 0.5em 0.5em 0.5em;
+  text-align: right;
+  background-color: transparent;
+  background-image: url("../assets/img/spine3.jpg");
+}
+tw-icon {
+  text-align: right;
+  padding-right: 0.75em;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Beginnings 1" tags="donotshowinventory" position="250,400" size="100,100">You squint at the light coming through the window. 
 
 Once, twice. You shut your eyes. 
 
@@ -133,7 +147,7 @@ He hesitates for a moment.
 (else:)[A few seconds later, he drops his eyes, leaving without a word.]
 
 [[Look at the newspaper-&gt;Today&#39;s Newspaper]]]
-[[Pocket the newspaper and get up -&gt;Newspapers 2]]</tw-passagedata><tw-passagedata pid="12" name="footer" tags="footer" position="200,0" size="100,100">(if: (passage:)&#39;s name is &quot;inventory&quot;)[&lt;!--Do nothing--&gt;]
+[[Pocket the newspaper and get up -&gt;Newspapers 2]]</tw-passagedata><tw-passagedata pid="12" name="footer" tags="footer" position="220,0" size="100,100">(if: (passage:)&#39;s name is &quot;inventory&quot;)[&lt;!--Do nothing--&gt;]
 (else-if: (passage:)&#39;s tags contains &quot;donotshowinventory&quot;)[&lt;!--Do nothing--&gt;]
  (else:)[Check [[inventory]].]</tw-passagedata><tw-passagedata pid="13" name="header" tags="header" position="100,0" size="100,100"></tw-passagedata><tw-passagedata pid="14" name="startup" tags="startup" position="0,0" size="100,100">(set: $inv to (a:))
 (set: $money to 0)
@@ -194,7 +208,7 @@ Today was the day to go see that super-duper awesome exhibition at McGill Univer
 
 That dream, though. What was it about, again? Newspapers, something. Codes. Funny how these things go sometimes. You head for the door, and set out to the library. 
 
-[[Enter the super awesome exhibition at McGill University Library-&gt;Introduction]]</tw-passagedata><tw-passagedata pid="19" name="Room 1" tags="" position="1275,150" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="20" name="Apologize to Mother" tags="" position="1275,275" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="21" name="Outside 1" tags="" position="1275,400" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="22" name="Thank Mother" tags="" position="1275,525" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="23" name="Confrontation Mother 1" tags="" position="1275,650" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+[[Enter the super awesome exhibition at McGill University Library-&gt;Introduction]]</tw-passagedata><tw-passagedata pid="19" name="Room 1" tags="" position="1275,150" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="20" name="Apologize to Mother" tags="" position="1275,275" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="21" name="Outside 1" tags="" position="1275,400" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="22" name="Thank Mother" tags="" position="1275,525" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="23" name="Confrontation Mother 1" tags="" position="1275,650" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="24" name="Sidebar" tags="footer" position="219.99999999999994,110" size="100,100"></tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
