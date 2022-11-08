@@ -1,0 +1,39 @@
+3IP Webfonts Simple Instruction Sheet
+
+If you don’t know how to host your own webfont, follow these instructions:
+
+1. Unzip the webfont archive you’ve downloaded upon ordering.
+
+2. Upload the enclosed folder (named for the font you licensed) to your website directory in the same place as your stylesheet(s) (your .css file or files, if any), keeping a copy locally for backup.
+
+3. Open an HTML file for a test page on which you wish your webfont to appear, and check for a stylesheet link, e.g.:
+
+   <link rel="stylesheet" href="css/mystylesheet.css" type="text/css" charset="utf-8" />
+
+4. Download and open the referenced .css file.
+
+5. Open the [Fontname].css file from your local webfont backup and copy the entire @font-face declaration, paste it into your website’s .css file, then apply the @font-family property to an element or class, e.g., one of these methods:
+
+   p { font-family: [Fontname], Verdana, Arial, sans-serif; }
+
+   .3ipfontclass { font-family: [Fontname], Verdana, Arial, sans-serif; font-size: 16px;}
+
+6. Make sure to apply this element or class to the HTML file for your test page where you want the font to appear.
+
+7. Upload both your test HTML file and revised .css file to your website directory.
+
+8. View your test page in various browsers.
+
+9. If you run into any problems, you’ll find clear, more detailed instructions at Fontspring (a wonderful type distributor with unmatched expertise on such things):
+
+   https://www.fontspring.com/support/installing_webfonts/how-do-i-use-the-webfonts
+
+10. If you keep having trouble, please feel free to get in touch with me personally:
+
+Brian Willson
+willson@3ip.com
+
+Thanks for purchasing webfonts directly from 3IP!
+
+======================
+www.3ip.com | Feb 2017
