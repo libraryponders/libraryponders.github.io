@@ -28,7 +28,7 @@ p {
 
 nav {
   width: 100%;
-  border-bottom: 1px solid; }
+  border-bottom: 1.5px solid; }
 
 nav > ul {
   margin-left: auto;
@@ -51,7 +51,7 @@ footer {
   color: #666;
   font-size: 0.75em;
   text-align: center;
-  border-top: 1px solid;
+  border-top: 1.5px solid;
   margin-bottom: 0;
   position: relative;
   margin-top: 6rem; }
