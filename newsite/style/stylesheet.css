@@ -71,3 +71,6 @@ img.socialico {
 a { color: #465ba3; }
 a:hover > img {
   filter: brightness(8) sepia(0.6) hue-rotate(-90deg); }
+
+nav { font-size: 1em; }
+h2 { font-size: 1.5em; }
