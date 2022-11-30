@@ -1,6 +1,6 @@
 html {
-    color: #333;
-    background-color: #fefefe;
+    color: #454440;
+    background-color: #fafafa;
     font-family: Times serif; }
 
 body { margin: 0; }
@@ -17,6 +17,19 @@ div#wrap {
 
 h2 {
   text-align: center; }
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: justify;
+  width: 30rem;
+  font-size: 0.85em;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 img.logo {
   width: 16rem; height: 16rem;
@@ -68,9 +81,21 @@ img.socialico {
   transition: 0.333s ease-in-out;
   width: 3rem; }
 
+img.illustart {
+  width: 7.2em;
+  float: left;
+}
+
 a { color: #465ba3; }
 a:hover > img {
   filter: brightness(8) sepia(0.6) hue-rotate(-90deg); }
 
 nav { font-size: 1em; }
 h2 { font-size: 1.5em; }
+
+div.scene {
+  margin-left: auto; margin-right: auto;
+  width: 45em; height: 24em;
+  background-size: contain;
+  box-shadow: 0 0 2em 2em #fafafa inset;
+}
