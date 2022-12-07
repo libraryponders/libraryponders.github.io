@@ -1,9 +1,0 @@
-/* Webfont: EmilyAustin */@font-face {
-    font-family: 'EmilyAustin';
-    src: url('EmilyAustin.woff2') format('woff2'), /* Modern Browsers */
-         url('EmilyAustin.otf') format('opentype'); /* Safari, Android, iOS */
-             font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
