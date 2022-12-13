@@ -51,7 +51,7 @@ nav > ul {
 nav > ul > li {
   display: inline-block;
   text-align: center;
-  /*! width: 8em; */ 
+  /*! width: 8em; */
   margin-left: 2em;
   margin-right: 2em;
 }
@@ -86,7 +86,7 @@ img.illustart {
   float: left;
 }
 
-a { color: #465ba3; }
+a { color: #468ba2; }
 a:hover > img {
   filter: brightness(8) sepia(0.6) hue-rotate(-90deg); }
 
